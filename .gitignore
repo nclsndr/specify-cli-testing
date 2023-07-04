@@ -1,0 +1,11 @@
+.DS_Store
+.history
+.vscode
+.idea
+
+.env
+.env.*
+
+node_modules
+
+public

@@ -1,0 +1,14 @@
+{
+  "repository": "@specifyapp/demo",
+  "personalAccessToken": "***",
+  "rules": [
+    {
+      "name": "Raw JSON from colors",
+      "path": "public/data/colors-list.json",
+      "filter": {
+        "types": ["color"]
+      },
+      "parsers": []
+    }
+  ]
+}

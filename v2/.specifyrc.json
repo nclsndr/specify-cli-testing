@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "repository": "@specifyapp/demo",
+  "personalAccessToken": "***",
+  "rules": [
+    {
+      "name": "Raw SDTF",
+      "parsers": [
+        {
+          "name": "css-custom-properties",
+          "output": {
+            "type": "file",
+            "filePath": "public/tokens.css"
+          }
+        }
+      ]
+    }
+  ]
+}
