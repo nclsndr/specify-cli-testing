@@ -4,7 +4,7 @@
 
 ### Install dependencies
 ```bash
-yarn | npm install
+npm install
 ```
 
 ### Create 2 .env files within `v1` and `v2` directories.
@@ -16,6 +16,15 @@ SPECIFY_PERSONAL_ACCESS_TOKEN=*****
 ```
 
 ### Run cases
+
+Staging
+
 ```bash
-yarn | npm run specify-staging -C v1/.specifyrc.mjs
+npm run specify-staging -C v1/.specifyrc.mjs
+```
+
+Production
+
+```bash
+npm run specify -C v1/.specifyrc.mjs
 ```

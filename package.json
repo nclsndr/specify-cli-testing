@@ -4,10 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@specifyapp/cli": "^1.2.0-beta.2",
     "@specifyapp/cli-staging": "^1.1.4-alpha.6"
   },
   "scripts": {
-    "specify-staging": "specify-staging"
+    "specify-staging": "specify-staging",
+    "specify": "specify"
   },
   "devDependencies": {
     "dotenv": "^16.3.1"
